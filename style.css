@@ -363,7 +363,7 @@ header {
     font-size: 21px;
 }
 /* making responsive */
-@media (max-width: 991px){
+@media  (max-width: 991px){
     header{
         padding: 18px 40px;
     }
@@ -371,7 +371,7 @@ header {
         padding: 50px 40px;
     }
 }
-@media (max-width: 881px){
+@media  (max-width: 881px){
     .home{
         background-position: left;
     }
@@ -380,7 +380,8 @@ header {
         left: 40px;
     }
 }
-@media (max-with: 768px){
+@media (max-width: 768px){
+    
     header{
         padding: 11px 40px;
     }
@@ -452,8 +453,12 @@ header {
     .newsletter .box {
         width: 284px;
     }
+    .form-container {
+        padding-top: 2rem;
+    }
+
 }
-@media (max-width: 350px){
+@media (max-width: 414px){
     header{
         padding: 6px 14px;
     }
@@ -471,9 +476,8 @@ header {
     .text h1{
         font-size: 2rem;
     }
-    .form-container{
-        padding-top: 2rem;
-    }
+    
+    
     .services-container {
         grid-template-columns: repeat(auto-fic, minmax(254px,auto));
     }
